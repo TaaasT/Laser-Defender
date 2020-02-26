@@ -99,3 +99,4 @@ MonoBehaviour:
   laserPrefab: {fileID: 5071241503224104180, guid: 9860c9e37fe44584982d528999fd7e09,
     type: 3}
   projectileSpeed: 20
+  projectileFiringPeriod: 0.05
