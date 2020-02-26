@@ -325,6 +325,95 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bb41669e88fe164e90fcf76ba2c6014, type: 3}
+--- !u!1001 &6099594403525843026
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3322978456533364757, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_Name
+      value: Laser Shredder
+      objectReference: {fileID: 0}
+    - target: {fileID: 3602609197029412455, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 3602609197029412455, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3602609197029412455, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3602609197029412455, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3602609197029412455, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3602609197029412455, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3602609197029412455, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3602609197029412455, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3602609197029412455, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3602609197029412455, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3602609197029412455, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3602609197029412455, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 15.866127
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042051740832087117, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.004599482
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042051740832087117, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.0091989
+      objectReference: {fileID: 0}
+    - target: {fileID: 8042051740832087117, guid: 5da42ecc240209d44968e9d2e7a4d230,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5da42ecc240209d44968e9d2e7a4d230, type: 3}
 --- !u!1001 &6327144066492166411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -336,6 +425,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6327144064821201437, guid: af1b61729284d144c82f5abf47a01302,
+        type: 3}
+      propertyPath: projectileFiringPeriod
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 6327144064821201438, guid: af1b61729284d144c82f5abf47a01302,
         type: 3}
