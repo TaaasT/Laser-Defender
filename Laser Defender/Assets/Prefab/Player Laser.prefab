@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2926839022017477949}
   - component: {fileID: 2153810422259624902}
+  - component: {fileID: 8209365451600560974}
   - component: {fileID: 2880794500411050844}
   - component: {fileID: -8787383351991900034}
-  - component: {fileID: 8209365451600560974}
   m_Layer: 0
   m_Name: Player Laser
   m_TagString: Untagged
@@ -84,6 +84,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8209365451600560974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5071241503224104180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67669343b34c9dd48855b3b546028c1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 100
 --- !u!50 &2880794500411050844
 Rigidbody2D:
   serializedVersion: 4
@@ -92,7 +105,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5071241503224104180}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -121,16 +134,3 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.09, y: 0.37}
   m_Direction: 0
---- !u!114 &8209365451600560974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5071241503224104180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67669343b34c9dd48855b3b546028c1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 100

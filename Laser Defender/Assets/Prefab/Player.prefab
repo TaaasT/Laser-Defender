@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6327144064821201438}
   - component: {fileID: 6327144064821201439}
   - component: {fileID: 6327144064821201437}
+  - component: {fileID: -6552777943223232998}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -96,7 +97,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   padding: 0.5
+  health: 200
   laserPrefab: {fileID: 5071241503224104180, guid: 9860c9e37fe44584982d528999fd7e09,
     type: 3}
   projectileSpeed: 20
   projectileFiringPeriod: 0.05
+--- !u!60 &-6552777943223232998
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6327144064821201432}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.12, y: 0.75}
+    newSize: {x: 1.12, y: 0.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.44105437, y: -0.26201725}
+      - {x: 0.5470181, y: -0.07769108}
+      - {x: 0.56, y: -0.04961872}
+      - {x: 0.5, y: -0.01529026}
+      - {x: 0.35836357, y: 0.033364296}
+      - {x: 0.10701808, y: 0.17740059}
+      - {x: 0.056727123, y: 0.32470894}
+      - {x: 0.038363557, y: 0.37067318}
+      - {x: -0.04239985, y: 0.37067318}
+      - {x: -0.10479961, y: 0.18394661}
+      - {x: -0.42618454, y: 0.00029850006}
+      - {x: -0.5253817, y: -0.036636353}
+      - {x: -0.56432724, y: -0.061436653}
+      - {x: -0.5140362, y: -0.16336346}
+      - {x: -0.38269082, y: -0.34038162}
+      - {x: -0.16105437, y: -0.29740047}
+      - {x: -0.12836352, y: -0.37067223}
+      - {x: 0.1313454, y: -0.3663454}
+      - {x: 0.16836356, y: -0.29903603}
+      - {x: 0.32432723, y: -0.33769035}
+      - {x: 0.36836356, y: -0.35201836}
