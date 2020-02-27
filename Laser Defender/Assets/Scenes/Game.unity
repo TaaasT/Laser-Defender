@@ -233,6 +233,10 @@ MonoBehaviour:
   waveConfigs:
   - {fileID: 11400000, guid: b11c0f5d2e2afc249a1b096d31425dc4, type: 2}
   - {fileID: 11400000, guid: 4dcf44653ff633d4080bad7fe8b82564, type: 2}
+  - {fileID: 11400000, guid: 31c334352d1f2334aaefb331b1cfedda, type: 2}
+  - {fileID: 11400000, guid: 8ac7f5a2dfa7e664b8db9cfc5398047f, type: 2}
+  startingWave: 0
+  Looping: 1
 --- !u!1001 &1170309428723826298
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -506,6 +510,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Path (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992646099308441366, guid: 9b33f50016e756f4c997c0e73f66fb6b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5992646099308441366, guid: 9b33f50016e756f4c997c0e73f66fb6b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b33f50016e756f4c997c0e73f66fb6b, type: 3}
